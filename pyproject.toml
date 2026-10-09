@@ -1,0 +1,14 @@
+[project]
+name = "consultorio-con-voz"
+version = "0.1.0"
+description = "Asistente de voz que controla una camilla de quirofano en una simulacion Unity"
+requires-python = ">=3.11"
+dependencies = [
+    "openai>=1.0",
+    "python-dotenv>=1.0",
+    "edge-tts>=6.1",
+    "pygame>=2.5",
+    "fastapi>=0.110",
+    "uvicorn[standard]>=0.29",
+    "websockets>=12.0",
+]
